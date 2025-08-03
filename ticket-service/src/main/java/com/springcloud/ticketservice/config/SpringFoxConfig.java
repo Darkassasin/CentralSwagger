@@ -1,4 +1,4 @@
-package com.springcloud.userservice.config;
+package com.springcloud.ticketservice.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;

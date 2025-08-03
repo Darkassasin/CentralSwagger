@@ -1,7 +1,7 @@
-package com.springcloud.userservice.service.impl;
+package com.springcloud.ticketservice.service.impl;
 
-import com.springcloud.userservice.dto.Ticket;
-import com.springcloud.userservice.service.TicketService;
+import com.springcloud.ticketservice.dto.Ticket;
+import com.springcloud.ticketservice.service.TicketService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

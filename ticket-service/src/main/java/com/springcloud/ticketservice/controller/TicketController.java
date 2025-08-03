@@ -1,7 +1,7 @@
-package com.springcloud.userservice.controller;
+package com.springcloud.ticketservice.controller;
 
-import com.springcloud.userservice.dto.Ticket;
-import com.springcloud.userservice.service.TicketService;
+import com.springcloud.ticketservice.dto.Ticket;
+import com.springcloud.ticketservice.service.TicketService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
