@@ -11,13 +11,21 @@
 
 ---
 
-## 🛠 Tech Stack
+## 📋 Prerequisites
 
-- Java 22  
-- Spring Boot 3.5.0  
-- Spring Cloud 2025.0.0  
-- Maven  
-- `spring-cloud-starter-gateway-server-webflux`
+<li> Java 22 - Required JDK version</li>
+<li> Maven 3.8+ - For dependency management and build</li>
+<li> Spring Boot 3.5.0 - Application framework</li>
+<li> Spring Cloud 2025.0.0 - Cloud-native patterns and services</li>
+
+## 🛠️ Technology Stack
+
+<li> Spring Boot: 3.5.0</li>
+<li> Spring Cloud: 2025.0.0</li>
+<li> Spring Cloud Gateway: WebFlux-based reactive gateway</li>
+<li> Java: 22</li>
+<li> Build Tool: Maven</li>
+
 
 ---
 
