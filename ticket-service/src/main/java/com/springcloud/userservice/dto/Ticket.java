@@ -1,4 +1,4 @@
-package com.springcloud.ticketservice.dto;
+package com.springcloud.userservice.dto;
 
 import lombok.Builder;
 import lombok.Data;

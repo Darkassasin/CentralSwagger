@@ -4,10 +4,7 @@ import com.springcloud.reservationservice.dto.Reservation;
 import com.springcloud.reservationservice.service.ReservationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -20,7 +17,7 @@ public class ReservationController {
     private final ReservationService reservationService;
 
 
-    @PostMapping(value = "/list")
+    @GetMapping(value = "/list")
     public ResponseEntity<List<Reservation>> reservationList(){
         return ResponseEntity.ok(reservationService.reservationList());
     }

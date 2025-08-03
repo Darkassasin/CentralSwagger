@@ -19,4 +19,9 @@ public class FallbackController {
     public ResponseEntity<HttpStatus> reservationFallback(){
         return ResponseEntity.ok(HttpStatus.SERVICE_UNAVAILABLE);
     }
+
+    @PostMapping(value = "/user")
+    public ResponseEntity<HttpStatus> userFallback(){
+        return ResponseEntity.ok(HttpStatus.SERVICE_UNAVAILABLE);
+    }
 }

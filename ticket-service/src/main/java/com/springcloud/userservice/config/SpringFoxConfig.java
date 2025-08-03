@@ -1,4 +1,4 @@
-package com.springcloud.reservationservice.config;
+package com.springcloud.userservice.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -13,8 +13,8 @@ public class SpringFoxConfig {
     @Bean
     public GroupedOpenApi publicApi() {
         return GroupedOpenApi.builder()
-                .group("reservation")
-                .packagesToScan("com.springcloud.reservationservice.controller")
+                .group("ticket")
+                .packagesToScan("com.springcloud.ticketservice.controller")
                 .build();
     }
 
