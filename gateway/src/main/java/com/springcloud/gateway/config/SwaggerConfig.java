@@ -1,5 +1,7 @@
 package com.springcloud.gateway.config;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
 import org.springdoc.core.properties.AbstractSwaggerUiConfigProperties;
 import org.springdoc.core.properties.SwaggerUiConfigParameters;
 import org.springdoc.core.properties.SwaggerUiConfigProperties;
@@ -11,6 +13,13 @@ import org.springframework.context.annotation.Primary;
 import java.util.*;
 
 @Configuration
+@OpenAPIDefinition(
+        info = @Info(
+                title = "Gateway Service API",
+                version = "1.0",
+                description = "REST API for managing service routes and fallbacks"
+        )
+)
 public class SwaggerConfig {
 
     @Bean
