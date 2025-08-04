@@ -57,7 +57,9 @@ This central gateway helps consolidate API documentation from all microservices 
 |                                     |  – Java 22<br/>                                                                                                                          |
 |                                     |  – Spring Boot 3.5.0<br/>                                                                                                                |
 |                                     |  – Spring Cloud 2025.0.0<br/>                                                                                                            |
-|                                     |  – `spring-cloud-starter-gateway-server-webflux`                                                                                         |
+|                                     |  – `spring-cloud-starter-gateway-server-webflux`                                                                                         | 
+|                                     |  - `springdoc-openapi-starter-webflux-ui`                                                                                                |
+|                                     |  - `springdoc-openapi-starter-webflux-api`                                                                                                |
 
 ## Future Improvements
 <li> Spring Security Integrations for accesing documentations</li>
