@@ -63,5 +63,4 @@ This central gateway helps consolidate API documentation from all microservices 
 
 ## Future Improvements
 <li> Spring Security Integrations for accesing documentations</li>
-<li> Detailed description on Method details </li>
 <li> Improvement with Docker containerizations and deployment</li>
