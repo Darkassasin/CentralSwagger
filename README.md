@@ -9,6 +9,20 @@
   <img src="central-swagger.gif" alt="Swagger Gateway Demo" width="100%"/>
 </p>
 
+
+## 📋  Use-case Diagram | Architecture Diagram | Sequence Diagram
+<p>
+  <strong>Use-case Diagram</strong><br>
+  <img src="design-diagrams/centralswagger-usecase.png" alt="Swagger Gateway Usecase">
+</p>
+<p>
+  <strong>Architecture Diagram</strong><br>
+  <img src="design-diagrams/centralswagger-architecture.webp" alt="Swagger Gateway Architecture">
+</p>
+<p>
+  <strong>Sequence Diagram</strong><br>
+  <img src="design-diagrams/centralswagger-sequence.png" alt="Swagger Gateway sequence">
+</p>
 ---
 
 ## 📋 Prerequisites
